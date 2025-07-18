@@ -1,0 +1,102 @@
+/* Container for the student portal */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.student-portal-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    min-height: 100vh; /* Ensure container takes full viewport height */
+    padding: 20px; /* Add padding around the container */
+    box-sizing: border-box; /* Include padding in total width and height */
+    overflow-y: auto; /* Enable vertical scrolling within the container */
+}
+
+/* Header styles */
+.header {
+    background-color: #e022bd;
+    padding: 10px;
+    color: white;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+/* Logo styles */
+.logo {
+    height: 80px;
+    margin-bottom: 10px; /* Adjust spacing between logo and title */
+    color: rgb(132, 31, 31);
+}
+
+/* Title styles */
+h1 {
+    margin: 0;
+    text-align: center; /* Center align text */
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #d4108f;
+    padding: 10px 0; /* Adjust padding for spacing */
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Space between buttons */
+}
+
+/* Navigation button styles */
+.nav-button {
+    background-color: #ef1bdd;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hover effect for navigation buttons */
+.nav-button:hover {
+    background-color: #23527c;
+}
+
+/* Main content area styles */
+.main-content {
+    margin: 20px auto; /* Center the content with automatic horizontal margins */
+    padding: 5px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make the div stretch across the page width */
+    max-width: 600px; /* Optional: set a max width for larger screens */
+    box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
+
+/* Action area styles */
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Action button styles */
+.action-button {
+    background-color: #005b96;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 16px;
+}
+
+/* Hover effect for action buttons */
+.action-button:hover {
+    background-color: #004080;
+}

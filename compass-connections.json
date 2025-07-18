@@ -1,0 +1,25 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "cd69a7e3-ca9a-464c-a2a3-d44ec939679a",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1729236020171"
+        }
+      },
+      "favorite": {
+        "name": "hostelfs.k4bvl.mongodb.net"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://vinithaasinghad22@hostelfs.k4bvl.mongodb.net/",
+        "oidc": {}
+      },
+      "connectionSecrets": "AAEhSXmZsfUzNOvh82sA211i1u3P0L26rnMg1SrWkEQDNRIjauL42LB9jsia1pE2gqyG+grzPVN+34g2yqb6dLPquBH5HU7lepqcMNLMlhb9Vb95CRLPpSlxbB2jw5dv46dpb0F08r5MisQrZx1dyNf9g43Sr8/bZ15arqmMyZUXNsP8bM8FWfD3JmC/xMBXaluJgctS00C9ekOt4OdF3MPNOuw="
+    }
+  ]
+}

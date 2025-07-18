@@ -1,0 +1,31 @@
+/* StudentIssues.css */
+.student-issues-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.issues-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.issues-table th, .issues-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.issues-table th {
+    background-color: #0056a6;
+    color: white;
+}
+
+.issues-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.action-button {
+    margin-right: 5px;
+}

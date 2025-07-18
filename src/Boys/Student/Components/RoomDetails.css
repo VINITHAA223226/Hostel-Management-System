@@ -1,0 +1,57 @@
+/* RoomDetails.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+#root {
+  height: 100%; /* Ensure the root element takes full height */
+}
+
+.room-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Use full viewport height */
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.header {
+  background-color: #0056a6;
+  width: 100%;
+  text-align: center;
+  padding: 50px 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: white;
+}
+
+.main-content {
+  background-color: white;
+  max-width: 100px; /* Reduced width for a smaller container */
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+  box-sizing: border-box;
+  margin-top: -10px; /* Reduce margin to bring header and content closer */
+}
+
+
+
+.main-content p {
+  margin: 15px 20px;
+  font-size: 18px;
+  color: #2c3e50;
+  justify-content: center;
+}

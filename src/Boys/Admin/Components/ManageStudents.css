@@ -1,0 +1,72 @@
+/* ManageStudents.css */
+.manage-students-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-student {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-student input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.add-student .action-button {
+    background-color: #0056a6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-student .action-button:hover {
+    background-color: #004080;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.student-table th {
+    background-color: #0056a6;
+    color: white;
+}
+
+.student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.action-button.remove-button {
+    background-color: #d9534f;
+    padding: 15px 30px; /* Increased padding for a larger button */
+    font-size: 16px; /* Increased font size */
+    border-radius: 6px; /* Adjust border-radius if needed */
+    width: 220px; /* Optional: increase width for a larger button */
+}
+
+/* Optional: Add hover effect */
+.action-button.remove-button:hover {
+    background-color: #c9302c;
+}
+
+.action-button.remove-button:hover {
+    background-color: #c9302c;
+}

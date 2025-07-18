@@ -1,0 +1,86 @@
+.manage-rooms-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.add-room {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add-room input,
+.add-room select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.add-room .action-button {
+    background-color: #0056a6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-room .action-button:hover {
+    background-color: #004080;
+}
+
+.room-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.room-table th, .room-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.room-table th {
+    background-color: #0056a6;
+    color: white;
+}
+
+.room-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.room-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.action-button.remove-button {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.action-button.remove-button:hover {
+    background-color: #c9302c;
+}
+
+.room-table td .action-button {
+    margin: 0;
+    padding: 5px 10px;
+}

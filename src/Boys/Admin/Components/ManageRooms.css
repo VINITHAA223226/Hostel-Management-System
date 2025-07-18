@@ -1,0 +1,44 @@
+/* ManageRooms.css */
+.manage-rooms-container {
+    margin: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.rooms-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.rooms-table th, .rooms-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.rooms-table th {
+    background-color: #f4f4f4;
+}
+
+.back-button-container {
+    text-align: center; /* Centering the back button at the bottom */
+    margin-top: 20px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}

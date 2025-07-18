@@ -1,0 +1,71 @@
+/* LeaveManagement.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto; /* Prevents scrolling */
+}
+
+.header {
+    background-color: #0056a6;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px; /* Adjusted padding */
+    border-radius: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align form elements */
+    width: 100%; /* Ensure form takes full width of the container */
+    box-sizing: border-box; /* Include padding and borders in width */
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.main-content {
+    background-color: white;
+    width: 100%; /* Make content fit the screen */
+    max-width: 600px; /* Set a maximum width */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 5px; /* Space between header and content */
+    overflow: auto; /* Allow scrolling if content overflows */
+}
+
+
+
+select, input[type="text"], input[type="date"] {
+    padding: 10px;
+    margin: 0 0 15px; /* Adjusted margins for better spacing */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 100%; /* Stretch input fields to full width of the form */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+button[type="submit"] {
+    background-color: #0056a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 15px 0; /* Adjusted margins for button spacing */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #004080;
+}
