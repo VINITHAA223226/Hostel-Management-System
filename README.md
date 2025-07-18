@@ -1,71 +1,126 @@
-# Getting Started with Create React App
+# 🏨 Hostel Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack Hostel Management System that streamlines hostel operations such as room allocation, leave approvals, complaint handling, and fee management, designed for admins, wardens, and students.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ⚙️ Tech Stack
 
-### `npm start`
+### 🖥️ Frontend
+- [Next.js v14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/)
+- [React Query](https://tanstack.com/query)
+- [React Hook Form](https://react-hook-form.com/)
+- [Leaflet](https://leafletjs.com/) – for hostel mapping (if applicable)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🌐 Backend
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛢️ Database
+- [MongoDB](https://www.mongodb.com/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Key Features
 
-### `npm run build`
+### 👩‍🎓 Student Portal
+- View hostel and room details
+- Apply for leave
+- Submit room complaints
+- View attendance and fee status
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🧑‍🏫 Warden Portal
+- Approve/reject leave requests
+- View student attendance
+- Check complaints and resolve issues
+- Access data only for assigned hostel blocks
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 👨‍💼 Admin Portal
+- Allocate rooms to first-year students
+- Send Google Form links for room selection to seniors
+- Manage hostels (Boys: Pearl, Ruby, Diamond, Emerald, Sapphire)
+- Manage fees and student records
+- Send announcements or emails
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+/client → Frontend (Next.js)
+/server → Backend (Node.js + Express)
+/server/models → Mongoose Schemas
+/server/routes → API Routes
+/client/components → Role-based Components (Admin, Warden, Student)
+/client/styles → Tailwind / Custom CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+yaml
+Copy
+Edit
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧑‍💻 Getting Started
 
-## Learn More
+### 🔧 Prerequisites
+- Node.js (v18+ recommended)
+- MongoDB Atlas or Local MongoDB
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🚀 Installation
 
-### Code Splitting
+#### 1️⃣ Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+git clone https://github.com/VINITHAA223226/Hostel-Management-System.git
+cd Hostel-Management-System
+2️⃣ Setup backend
+bash
+Copy
+Edit
+cd server
+npm install
+# Create .env file with MongoDB URI and PORT
+npm start
+3️⃣ Setup frontend
+bash
+Copy
+Edit
+cd ../client
+npm install
+npm run dev
+🔐 Environment Variables
+For /server/.env:
+ini
+Copy
+Edit
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+JWT_SECRET=your_jwt_secret_key
+📸 Screenshots
+(Insert screenshots here if needed)
 
-### Analyzing the Bundle Size
+📄 License
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🙋‍♀️ Author
+Vinithaa S
+📎 GitHub
 
-### Making a Progressive Web App
+yaml
+Copy
+Edit
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### ✅ Steps to Use:
+1. Save this content as `README.md` in your root folder.
+2. Stage, commit, and push:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Hostel-Management-System" 
+```bash
+git add README.md
+git commit -m "Added full-stack README"
+git push
