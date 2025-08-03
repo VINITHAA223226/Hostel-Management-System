@@ -48,21 +48,6 @@ A full-stack Hostel Management System that streamlines hostel operations such as
 
 ---
 
-## 📁 Project Structure
-
-/client → Frontend (Next.js)
-/server → Backend (Node.js + Express)
-/server/models → Mongoose Schemas
-/server/routes → API Routes
-/client/components → Role-based Components (Admin, Warden, Student)
-/client/styles → Tailwind / Custom CSS
-
-yaml
-Copy
-Edit
-
----
-
 ## 🧑‍💻 Getting Started
 
 ### 🔧 Prerequisites
@@ -78,49 +63,28 @@ Edit
 git clone https://github.com/VINITHAA223226/Hostel-Management-System.git
 cd Hostel-Management-System
 2️⃣ Setup backend
-bash
-Copy
-Edit
+
 cd server
 npm install
 # Create .env file with MongoDB URI and PORT
 npm start
 3️⃣ Setup frontend
-bash
-Copy
-Edit
+
 cd ../client
 npm install
 npm run dev
 🔐 Environment Variables
 For /server/.env:
-ini
-Copy
-Edit
+
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 JWT_SECRET=your_jwt_secret_key
-📸 Screenshots
-(Insert screenshots here if needed)
 
-📄 License
-This project is licensed under the MIT License.
 
 🙋‍♀️ Author
 Vinithaa S
 📎 GitHub
 
-yaml
-Copy
-Edit
 
 ---
 
-### ✅ Steps to Use:
-1. Save this content as `README.md` in your root folder.
-2. Stage, commit, and push:
-
-```bash
-git add README.md
-git commit -m "Added full-stack README"
-git push
